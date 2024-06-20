@@ -1,3 +1,8 @@
+// Cosmic Birthday 🎊
+// Codédex
+
+import "./styles.css";
+
 document
 .getElementById("birthdayForm")
 .addEventListener("submit", function (event) {

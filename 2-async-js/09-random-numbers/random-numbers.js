@@ -1,6 +1,8 @@
 // Random Numbers 🔢
 // Codédex
 
+import "./styles.css";
+
 function randomNumberPromise() {
   return new Promise((resolve, reject) => {
     const randomNumber = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10

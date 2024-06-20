@@ -1,6 +1,8 @@
 // Subscribe Button ✅
 // Codédex
 
+import "./styles.css";
+
 const subscribeBtn = document.getElementById("subscribeBtn");
 const message = document.getElementById("message");
 
