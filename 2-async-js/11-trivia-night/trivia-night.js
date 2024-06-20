@@ -20,7 +20,7 @@ function displayTriviaQuestions(questions) {
     questionElement.classList.add("question");
     questionElement.innerHTML = `<p>${index + 1}. ${question.question}</p>`;
 
-    radioGroupName = `question${index}`;
+    const radioGroupName = `question${index}`;
 
     const answers = [...question.incorrect_answers, question.correct_answer];
 
