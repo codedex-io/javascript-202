@@ -12,6 +12,6 @@ function randomNumberPromise() {
   });
  }
  
- const generateBtn = document.getElementsById("generateButton");
+ const generateBtn = document.getElementById("generateButton");
  
  generateBtn.addEventListener("click", randomNumberPromise);
