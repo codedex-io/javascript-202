@@ -1,8 +1,6 @@
 // Jokebook 🃏
 // Codédex
 
-import "./styles.css";
-
 const jokeContainer = document.getElementById("jokeContainer");
 const getJokeBtn = document.getElementById("getJokeBtn");
 
