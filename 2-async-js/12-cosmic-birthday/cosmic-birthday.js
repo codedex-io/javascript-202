@@ -22,8 +22,7 @@ fetchAPOD(birthday);
 
 // function fetchAPOD(date) {
 // const apodContainer = document.getElementById("apod-container");
-// const apiKey = "DEMO_KEY"; // Replace with your NASA APOD API key
-// const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=${apiKey}`;
+// const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=DEMO_KEY`;
 
 // fetch(url)
 // .then((response) => response.json())
@@ -45,8 +44,7 @@ fetchAPOD(birthday);
 // Alternative with async/await:
 const fetchAPOD = async (date) => {
 const apodContainer = document.getElementById("apod-container");
-const apiKey = "DEMO_KEY";
-const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=${apiKey}`;
+const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=DEMO_KEY`;
 const response = await fetch(url);
 
 if (!response.ok) {
