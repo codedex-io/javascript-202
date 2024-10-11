@@ -24,7 +24,7 @@ const fiveMostStreamedSongs = [
     artist: "Harry Styles",
     streams: 3278000000
   }
-]
+];
 
 for (let song of fiveMostStreamedSongs) {
   for (let info in song) {
