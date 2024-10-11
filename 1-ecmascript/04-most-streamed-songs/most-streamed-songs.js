@@ -1,4 +1,4 @@
-fiveMostStreamedSongs = [
+const fiveMostStreamedSongs = [
   {
     title: "Blinding Lights",
     artist: "The Weeknd",
