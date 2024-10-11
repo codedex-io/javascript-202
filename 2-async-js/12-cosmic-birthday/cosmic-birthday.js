@@ -29,8 +29,8 @@ const fetchAPOD = async (date) => {
   const response = await fetch(url);
   
   if (!response.ok) {
-  apodContainer.innerHTML = "An error occurred while fetching the APOD data."
-  throw new Error("An error occurred while fetching the APOD data.")
+  apodContainer.innerHTML = "An error occurred while fetching the APOD data.";
+  throw new Error("An error occurred while fetching the APOD data.");
   }
   
   const data = await response.json();
@@ -41,8 +41,8 @@ const fetchAPOD = async (date) => {
        <h2 id="apod-title">${data.title}</h2>
        <p>${data.explanation}</p>
      </div>
-   `
-  }
+   `;
+  };
 
 document
 .getElementById("birthdayForm")
