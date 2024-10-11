@@ -13,7 +13,7 @@ Welcome to Intermediate JavaScript GitHub repo! We are super excited to have you
 
 - [`arrow-logic.js`](https://github.com/codedex-io/javascript-202/blob/main/1-ecmascript/02-arrow-logic/arrow-logic.js)
 - [`99-bottles.js`](https://github.com/codedex-io/javascript-202/blob/main/1-ecmascript/03-99-bottles/99-bottles.js)
-- [`most-streamed-songs`](https://github.com/codedex-io/javascript-202/tree/main/1-ecmascript/04-most-streamed-songs)
+- [`most-streamed-songs.js`](https://github.com/codedex-io/javascript-202/blob/main/1-ecmascript/04-most-streamed-songs/most-streamed-songs.js)
 - [`pack-your-bags.js`](https://github.com/codedex-io/javascript-202/blob/main/1-ecmascript/05-pack-your-bags/pack-your-bags.js)
 - [`reading-lists.js`](https://github.com/codedex-io/javascript-202/blob/main/1-ecmascript/06-reading-lists/reading-lists.js)
 
