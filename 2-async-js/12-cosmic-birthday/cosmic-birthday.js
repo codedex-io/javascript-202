@@ -29,8 +29,8 @@ const fetchAPOD = async (date) => {
   const response = await fetch(url);
   
   if (!response.ok) {
-  throw new Error("An error occurred while fetching the APOD data.")
   apodContainer.innerHTML = "An error occurred while fetching the APOD data."
+  throw new Error("An error occurred while fetching the APOD data.")
   }
   
   const data = await response.json();
