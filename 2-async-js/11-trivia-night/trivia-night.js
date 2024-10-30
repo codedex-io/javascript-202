@@ -29,7 +29,7 @@ function displayTriviaQuestions(questions) {
       answerElement.classList.add("answer");
       answerElement.innerHTML = `
        <label>
-         <input id="question-${index}" type="radio" name="${radioGroupName}" value="${answer}">
+         <input id="question-${index}-${answerIndex}" type="radio" name="${radioGroupName}" value="${answer}">
          ${answer}
        </label>
      `;
