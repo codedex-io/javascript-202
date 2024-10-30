@@ -5,6 +5,6 @@ const forceEquation = (mass, acceleration) => {
   return mass * acceleration;
 }
 
-/* One-line Alternative:
+/* One-line Alternative
 const forceEquation = (mass, acceleration) => mass * acceleration;
 */
