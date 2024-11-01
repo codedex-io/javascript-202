@@ -36,7 +36,7 @@ const fetchAPOD = async (date) => {
   const data = await response.json();
   apodContainer.innerHTML = `
   
-     <img id="apod-image" src="${data.url}" alt=${data.title}" width="600">
+     <img id="apod-image" src="${data.url}" alt="${data.title}" width="600">
      <div id="apod-info">
        <h2 id="apod-title">${data.title}</h2>
        <p>${data.explanation}</p>
