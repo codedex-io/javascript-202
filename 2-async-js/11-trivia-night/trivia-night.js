@@ -21,21 +21,23 @@ function displayTriviaQuestions(questions) {
     questionElement.innerHTML = `<p>${index + 1}. ${question.question}</p>`;
 
     const radioGroupName = `question${index}`;
-
     const answers = [...question.incorrect_answers, question.correct_answer];
+    
+    // Shuffle the answers for randomness
+    answers.sort(() => Math.random() - 0.5);
 
-    answers.forEach((answer) => {
+    answers.forEach((answer, answerIndex) => {
       const answerElement = document.createElement("div");
       answerElement.classList.add("answer");
       answerElement.innerHTML = `
        <label>
-         <input id="question-${index}" type="radio" name="${radioGroupName}" value="${answer}">
+         <input id="question-${index}-${answerIndex}" type="radio" name="${radioGroupName}" value="${answer}">
          ${answer}
        </label>
      `;
       questionElement.appendChild(answerElement);
       if (answer === question.correct_answer) {
-        answerElement.innerHTML += "✅";
+        answerElement.innerHTML += " ✅";
       }
     });
 
