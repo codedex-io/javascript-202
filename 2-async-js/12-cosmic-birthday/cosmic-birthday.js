@@ -29,7 +29,7 @@ function fetchAPOD(date) {
 // Alternative solution with async/await:
 const fetchAPOD = async (date) => {
 
-  const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=DEMO_KEY}`;
+  const url = `https://api.nasa.gov/planetary/apod?date=${date}&api_key=DEMO_KEY`;
   const response = await fetch(url);
   
   if (!response.ok) {
@@ -48,9 +48,8 @@ const fetchAPOD = async (date) => {
 };
 
 document
-  .getElementById("birthdayForm")
-  .addEventListener("submit", function (event) {
-    event.preventDefault();
+  .getElementById("fetchBtn")
+  .addEventListener("click", function () {
     const birthday = document.getElementById("birthday").value;
     const errorMessage = document.getElementById("error-message");
 
